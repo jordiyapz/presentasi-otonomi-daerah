@@ -12,5 +12,5 @@ app.get('/about', (req, res) => {
 	res.sendFile(path.resolve(__dirname, 'static/about.html'));
 })
 
-const portListen = 8080;
+const portListen = process.env.PORT || 8080;
 server.listen(portListen);
