@@ -8,9 +8,8 @@ app.use(express.static(path.join(__dirname,'static'))); // untuk nempation file 
 app.get('/', (req, res) => {
 	res.sendFile(path.resolve(__dirname, 'static/index.html'));
 })
-app.get('/about', (req, res) => {
-	res.sendFile(path.resolve(__dirname, 'static/about.html'));
-})
 
 const portListen = process.env.PORT || 8080;
-server.listen(portListen);
+server.listen(portListen, () => {
+	console.log("Listening on port ", portListen);
+});

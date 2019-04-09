@@ -9,8 +9,9 @@
   },
   "author": "Jordi Yaputra",
   "license": "ISC",
-  "dependencies":{
-    "express": "4.16.4"
+  "dependencies": {
+    "express": "4.16.4",
+    "mdbootstrap": "^4.7.6"
   },
   "devDependencies": {
     "nodemon": "1.18.10"
