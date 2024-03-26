@@ -13,7 +13,7 @@
   "author": "Jordi Yaputra",
   "license": "ISC",
   "dependencies": {
-    "express": "4.16.4",
+    "express": "4.19.2",
     "mdbootstrap": "^4.7.6"
   },
   "devDependencies": {
